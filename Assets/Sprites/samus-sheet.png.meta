@@ -119,6 +119,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -169,7 +182,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 546
+        y: 545
         width: 26
         height: 43
       alignment: 0
@@ -213,7 +226,7 @@ TextureImporter:
         x: 144
         y: 545
         width: 26
-        height: 45
+        height: 43
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -736,9 +749,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 481
-        y: 565
-        width: 23
-        height: 8
+        y: 564
+        width: 10
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5877,7 +5890,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: samus-sheet_274
+      name: Morphball1
       rect:
         serializedVersion: 2
         x: 590
@@ -5898,7 +5911,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: samus-sheet_275
+      name: Morphball2
       rect:
         serializedVersion: 2
         x: 610
@@ -5919,7 +5932,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: samus-sheet_276
+      name: Morphball3
       rect:
         serializedVersion: 2
         x: 631
@@ -5940,7 +5953,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: samus-sheet_277
+      name: Morphball4
       rect:
         serializedVersion: 2
         x: 652
@@ -5961,7 +5974,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: samus-sheet_278
+      name: Morphball5
       rect:
         serializedVersion: 2
         x: 675
@@ -5982,7 +5995,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: samus-sheet_279
+      name: Morphball6
       rect:
         serializedVersion: 2
         x: 697
@@ -6003,7 +6016,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: samus-sheet_280
+      name: Morphball7
       rect:
         serializedVersion: 2
         x: 719
@@ -6024,7 +6037,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: samus-sheet_281
+      name: Morphball8
       rect:
         serializedVersion: 2
         x: 743
@@ -6045,7 +6058,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: samus-sheet_282
+      name: Morphball9
       rect:
         serializedVersion: 2
         x: 768
@@ -6108,13 +6121,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: samus-sheet_285
+      name: samus-sheet_1
       rect:
         serializedVersion: 2
-        x: 851
-        y: 6
-        width: 240
-        height: 69
+        x: 496
+        y: 565
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6122,8 +6135,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72962a5847cc26c46a4dff81a1d03bea
-      internalID: -1430873541
+      spriteID: 7542a15c0887e2184bd543a1f35cca4f
+      internalID: 1706058272
       vertices: []
       indices: 
       edges: []
@@ -6144,7 +6157,17 @@ TextureImporter:
       IdleRight3: 1837730906
       IdleRight4: 264075499
       IdleRight5: -1730508501
+      Morphball1: -2059290770
+      Morphball2: 1588354588
+      Morphball3: -1476529288
+      Morphball4: -1998728616
+      Morphball5: -1765305309
+      Morphball6: 1392370672
+      Morphball7: 1734226948
+      Morphball8: 1965692399
+      Morphball9: -707061737
       samus-sheet_0: -706390924
+      samus-sheet_1: 1706058272
       samus-sheet_10: -1119263797
       samus-sheet_100: -301027112
       samus-sheet_101: 170396870
@@ -6337,16 +6360,7 @@ TextureImporter:
       samus-sheet_271: 1433334647
       samus-sheet_272: 795687910
       samus-sheet_273: -984889637
-      samus-sheet_274: -2059290770
-      samus-sheet_275: 1588354588
-      samus-sheet_276: -1476529288
-      samus-sheet_277: -1998728616
-      samus-sheet_278: -1765305309
-      samus-sheet_279: 1392370672
       samus-sheet_28: -363878895
-      samus-sheet_280: 1734226948
-      samus-sheet_281: 1965692399
-      samus-sheet_282: -707061737
       samus-sheet_283: -335980139
       samus-sheet_284: 705554400
       samus-sheet_285: -1430873541
